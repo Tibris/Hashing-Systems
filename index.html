@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/reset.css" type="text/css">
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+    <title>Smart Contract Deployer • Hashing Systems</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="upper-header">
+                <div>
+                    <img src="IMG/green-logo.svg" alt="Logo">
+                    <h1>HASHING <br>SYSTEMS</h1>
+                </div>
+                <nav>
+                    <a href="#">PRODUCTS</a>
+                    <a href="#">BLOG</a>
+                    <a href="#">CONTACT</a>
+                    <a href="#">REGISTER</a>
+                </nav>
+            </div>
+            <div class="lower-header">
+                <div class="brand-description">
+                    <img src="IMG/scd_icon.svg" alt="SMART CONTRACT DEPLOYER LOGO">
+                    <div>
+                        <p>SMART CONTRACT DEPLOYER</p>
+                        <p>Solidity notepad and smart contract deployer solution.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <h1 class="ide">Integrated Development Environment</h1>
+    <p class="ide-paragraph">Build, verify, and track smart contracts.</p>
+
+    <img class="code-editor-img" src="IMG/code_editor.png" alt="Code Editor">
+
+    <section class="hero">
+        <div class="bgContainer">
+            <div class="gridSection" id="gridSection1">
+                <div class="grid">
+                    <div class="stripe" id="stripe-left1"></div>
+                    <div class="stripe" id="stripe-left2"></div>
+                    <div class="stripe" id="stripe-left3"></div>
+                    <div class="stripe" id="stripe-left4"></div>
+                    <div class="stripe" id="stripe-right1"></div>
+                    <div class="stripe" id="stripe-right2"></div>
+                    <div class="stripe" id="stripe-right3"></div>
+                    <div class="stripe" id="stripe-right4"></div>
+                </div>
+            </div>
+            <div class="gridSection" id="gridSection2">
+                <div class="gridSection-content">
+                    <div>
+                        <img src="IMG/feature_icons/icon_1.svg" alt="Icon">
+                        <h2>Contract Deployment and Debugging</h2>
+                        <div>
+                            <div class="purple-circle"></div>
+                            <p>Build, verify, and track smart contracts.</p>
+                        </div>
+                        <div>
+                            <div class="purple-circle"></div>
+                            <p>Test transactions directly from the web console.</p>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div>
+                            <img src="IMG/feature_icons/icon_2.svg" alt="Icon">
+                            <p>The most significant barrier that developers face is the complexity of making and
+                                tracking the smart contracts on hashgraph. It requires being knowledgeable in at least 4
+                                languages. Realistically, most innovators do not have access to these kinds of extra
+                                resources, which is why simple smart contract development can cost upwards of 20-30
+                                thousand dollars. This is why we created the integrated development environment. </p>
+                        </div>
+                        <div>
+                            <img src="IMG/feature_icons/icon_3.svg" alt="Icon">
+                            <p>Our dashboard will allow developers to produce smart contracts and then track them
+                                through their lifespans. This means monitoring the activity of smart contracts as well
+                                as tracking the remaining life. These two features will allow for developers to run
+                                analytics on the usage and prevent the accidental deleting of their smart contracts by
+                                reminding developers to maintain a given balance to pay the storage. Organize and manage
+                                your smart contracts through our interactive dashboard.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="gridSection" id="gridSection3">
+                <div class="grid">
+                    <div class="stripe" id="stripe-left1"></div>
+                    <div class="stripe" id="stripe-left2"></div>
+                    <div class="stripe" id="stripe-left3"></div>
+                    <div class="stripe" id="stripe-right1"></div>
+                    <div class="stripe" id="stripe-right2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="section2">
+        <div>
+            <img src="IMG/feature_icons/icon_4.svg" alt="Icon">
+        </div>
+        <div>
+            <div class="securityAuditWidget">
+                <div class="blankWidgetBody"></div>
+                <div class="widgetContainer">
+                    <div class="topSection">
+                        <svg width="14px" height="11px" viewBox="0 0 14 11" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="deploy" transform="translate(-640.000000, -1886.000000)" fill="#FFCE8C">
+                                    <g id="Group-13" transform="translate(250.000000, 1844.000000)">
+                                        <polygon id="Rectangle" points="397 42 404 53 390 53"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <h3>SECURITY AUDIT</h3>
+                        <p>We have audited your contract code and found <span>3 anomalities</span> that might affect
+                            your contract.</p>
+                    </div>
+                    <div class="codeSection">
+                        <code>
+                            135 <span class="lightBlue">balances</span>[<span class="blue">msg.sender</span>] = <span
+                                class="orange">_initialAmount</span>;<br>
+                            ..<br>
+                            147 <span class="lightBlue">require</span>(<span class="blue">msg.sender</span> == <span
+                                class="orange">_to</span> || <span class="lightBlue">balances</span>[<span
+                                class="orange">_to</span>] <= <span class="red">MAX_UINT256</span> - <span
+                                    class="orange">_value</span>);<br>
+                                148 <span class="lightBlue">balances</span>[<span class="blue">msg.sender</span>] -=
+                                <span class="orange">_value</span>;<br>
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

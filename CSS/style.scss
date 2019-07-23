@@ -1,0 +1,62 @@
+@import 'header';
+@import 'striped_background';
+@import 'security-audit';
+
+%align-center {
+    display: flex;
+    align-items: center;
+}
+
+/* variables */
+$font-family: -apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+Helvetica,
+Arial,
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol";
+
+body {
+    background-image: linear-gradient(to top, #f9fbfb, #ffffff) no-repeat;
+    font-family: $font-family;
+}
+
+.ide {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 300;
+    color: #1d1741;
+    line-height: normal;
+    margin-top: 94px;
+}
+
+.ide-paragraph {
+    opacity: 0.5;
+    font-size: 15px;
+    text-align: center;
+    color: #1d1741;
+}
+
+.code-editor-img {
+    position: absolute;
+    transform: translateX(40%);
+    display: block;
+    width: 54.16%;
+    margin: 80px auto 0 auto;
+    z-index: 10;
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+    #gridSection1 .grid #stripe-left1 {
+        height: 40px !important;
+    }
+
+    #gridSection3 .grid #stripe-left1 {
+        height: 40px !important;
+    }
+}

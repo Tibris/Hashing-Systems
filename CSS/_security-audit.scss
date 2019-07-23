@@ -1,0 +1,80 @@
+#section2 {
+    margin: 200px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section2 .widgetContainer {
+    width: 100%;
+}
+
+#section2 div:first-child {
+    img {
+        padding: 15px;
+        font-size: 12px;
+        background-color: #d9d9ff;
+        border-radius: 50%;
+    }
+}
+
+#section2 .widgetContainer .topSection {
+    padding: 15px 20px;
+    border-radius: 5px 5px 0 0;
+    background: #7666D7;
+}
+
+#section2 .widgetContainer .topSection svg {
+    position: relative;
+    top: 1px;
+}
+
+#section2 .widgetContainer .topSection h3 {
+    display: inline-block;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    letter-spacing: 0.7px;
+    color: #FFFFFF;
+}
+
+#section2 .widgetContainer .topSection p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #C8C1EF;
+}
+
+#section2 .widgetContainer .topSection span {
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+#section2 .widgetContainer .codeSection {
+    padding: 10px;
+    background: #352E62;
+    border-radius: 0 0 5px 5px;
+}
+
+#section2 .widgetContainer .codeSection code {
+    line-height: 2;
+    font-family: 'Roboto Mono';
+    font-weight: 400;
+    font-size: 12px;
+    color: #7A72A9;
+}
+
+#section2 .widgetContainer .codeSection code .lightBlue {
+    color: #CAC1FF;
+}
+
+#section2 .widgetContainer .codeSection code .blue {
+    color: #66AFFF;
+}
+
+#section2 .widgetContainer .codeSection code .orange {
+    color: #FFCE8C;
+}
+
+#section2 .widgetContainer .codeSection code .red {
+    color: #FFB2B2;
+}
