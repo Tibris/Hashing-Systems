@@ -1,19 +1,55 @@
 #section2 {
-    margin: 200px 100px;
+    margin: 200px 0px;
     display: flex;
     justify-content: space-between;
 }
 
 #section2 .widgetContainer {
     width: 100%;
+    max-width: 540px;
+    box-shadow: 0 35px 55px -15px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 11;
+
+    .reflection {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: black;
+        z-index: -1;
+        bottom: 25px;
+        left: 25px;
+        border-radius: 5px;
+        box-shadow: 0 35px 55px -15px rgba(0, 0, 0, 0.15);
+        background-color: #ffffff;
+    }
 }
 
-#section2 div:first-child {
+#section2>div:first-child {
     img {
+        margin-top: 19px;
         padding: 15px;
         font-size: 12px;
         background-color: #d9d9ff;
         border-radius: 50%;
+    }
+
+    div {
+        margin-top: 24px;
+
+        h2 {
+            font-size: 20px;
+            color: #1d1741;
+        }
+
+        p {
+            margin-top: 5px;
+            opacity: 0.6;
+            font-size: 14px;
+            line-height: 1.29;
+            color: #1d1741;
+            max-width: 304px;
+        }
     }
 }
 
@@ -77,4 +113,15 @@
 
 #section2 .widgetContainer .codeSection code .red {
     color: #FFB2B2;
+}
+
+.icon4 {
+    width: 50px;
+    height: 50px;
+    background: url(../IMG/feature_icons/icon_4.svg);
+    background-repeat: no-repeat;
+    background-size: 26px 23px;
+    background-color: rgba(118, 102, 215, .1);
+    border-radius: 50%;
+    background-position: center;
 }

@@ -14,19 +14,9 @@ header {
     justify-content: space-between;
     border-bottom: solid 1px #dfe8eb;
 
-    div {
+    > img {
         margin: 9px 0 0 50px;
-        display: flex;
-
-        h1 {
-            margin-left: 5.2px;
-            letter-spacing: 1.3px;
-        }
-
-        img {
-            width: 30px;
-            height: 32px;
-        }
+        @extend %align-center;
     }
 
     nav {
@@ -61,11 +51,6 @@ header {
 .brand-description {
     @extend %align-center;
 
-    img {
-        width: 36px;
-        height: 36px;
-    }
-
     div:last-child {
         margin-left: 10px;
 
@@ -84,4 +69,18 @@ header {
             color: #3d4758;
         }
     }
+}
+
+.scd-icon {
+    width: 36px;
+    height: 36px;
+    background: url(../IMG/scd_icon.svg) no-repeat;
+    background-size: cover;
+}
+
+.green-logo {
+    width: 31.7px;
+    height: 35.4px;
+    background: url(../IMG/small_footer_logo.svg) no-repeat;
+    background-size: cover;
 }
