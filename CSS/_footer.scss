@@ -1,0 +1,189 @@
+footer {
+    background: #fbfdfe;
+    margin-top: 100px;
+}
+
+.products-links-div {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        >div:nth-child(1) {
+            flex-basis: 40%;
+
+            p {
+                opacity: 0.6;
+                font-size: 15px;
+                line-height: 1.33;
+                color: #3d4758;
+                margin: 10.4px 0 20px 0;
+            }
+        }
+
+        >div:nth-child(2) {
+            flex-basis: 40%;
+        }
+
+        >div:nth-child(3) {
+            flex-basis: 10%;
+        }
+    }
+}
+
+.products,
+.links {
+    h3 {
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #7d8698;
+    }
+}
+
+.contact-icons {
+    display: flex;
+
+    a {
+        margin-right: 10px;
+    }
+}
+
+.product-categories {
+    margin-top: 26px;
+
+    >div {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 34px;
+    }
+
+    h4 {
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    p {
+        opacity: 0.6;
+        font-size: 13px;
+        color: #3d4758;
+        max-width: 248px;
+        margin-top: 4px;
+    }
+}
+
+
+.footer-icon {
+    margin-right: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+}
+
+.api-footer-icon {
+    background: url(../IMG/api_icon.svg);
+}
+
+.scd-footer-icon {
+    background: url(../IMG/scd_icon.svg);
+}
+
+.hns-footer-icon {
+    background: url(../IMG/hns_icon.svg);
+}
+
+.api-div h4 {
+    color: #1ebeff;
+}
+
+.scd-div h4 {
+    color: #7666d7;
+}
+
+.hns-div h4 {
+    color: #3eb566;
+}
+
+.anchors {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+
+    a {
+        margin-bottom: 12px;
+        font-size: 15px;
+        color: #7d8698;
+        text-decoration: none;
+    }
+}
+
+.lower-footer {
+    border-top: solid 1px #dfe8eb;
+
+    .container {
+        @extend %align-center;
+        height: 73px;
+        justify-content: space-between;
+
+        p {
+            opacity: 0.6;
+            font-size: 13px;
+            color: #3d4758;
+            text-align: center;
+            margin: 0 20px;
+        }
+    }
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.contact-icons {
+    a {
+        display: block;
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        svg {
+            margin-top:11px;
+            width: 50%;
+            path {
+                fill: #fff;
+            }
+        }
+    }
+}
+
+.facebook {
+    background: #4172B8;
+}
+
+.twitter {
+    background: #1DA1F2;
+}
+
+.linkedin {
+    background: #0077B5;
+    svg {
+        margin-top: 12px !important;
+        width: 45% !important;
+    }
+}
+
+.medium {
+    background: #12100E;
+    svg {
+        margin-top: 12px !important;
+        width: 45% !important;
+    }
+}
+
+.github {
+    background: #4078c0;
+}

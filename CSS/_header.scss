@@ -2,27 +2,26 @@ header {
     background-color: #fbfdfe;
 }
 
-.container {
+.header-container {
     width: 72.22%;
     max-width: 1040px;
     margin: 0 auto;
 }
 
 .upper-header {
-    height: 88px;
     @extend %align-center;
     justify-content: space-between;
+    height: 88px;
     border-bottom: solid 1px #dfe8eb;
 
-    > img {
-        margin: 9px 0 0 50px;
+    >img {
         @extend %align-center;
+        margin: 9px 0 0 50px;
     }
 
     nav {
         text-transform: uppercase;
         margin: 9px 50px 0 0;
-
         a {
             margin: 0 22.5px;
             text-decoration: none;
@@ -32,13 +31,17 @@ header {
             color: #2b303a;
         }
 
-        a:last-child {
+        a:nth-child(4) {
             padding: 9px 13px 7px 13px;
             border-radius: 5px;
             box-shadow: 0 4px 8px -5px rgba(0, 0, 0, 0.1);
             background-color: #07e4b7;
             color: #ffffff;
             margin-left: 10px;
+        }
+
+        img {
+            height: 20px;
         }
     }
 }
@@ -50,7 +53,7 @@ header {
 
 .brand-description {
     @extend %align-center;
-
+    flex-wrap: wrap;
     div:last-child {
         margin-left: 10px;
 
@@ -83,4 +86,20 @@ header {
     height: 35.4px;
     background: url(../IMG/small_footer_logo.svg) no-repeat;
     background-size: cover;
+}
+
+.responsive-nav {
+    display: none;
+    border: 1px solid #dfe8eb;
+}
+
+.nav-icon {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: url(../IMG/nav.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    cursor: pointer;
 }
